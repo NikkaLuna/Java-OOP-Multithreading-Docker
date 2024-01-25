@@ -15,6 +15,10 @@ import {map} from "rxjs/operators";
 })
 export class AppComponent implements OnInit{
 
+  englishWelcomeMessage: string = '';
+  frenchWelcomeMessage: string = '';
+  welcomeMessages!: string[];
+
   constructor(private httpClient:HttpClient){}
 
   private baseURL:string='http://localhost:8080';
@@ -44,6 +48,12 @@ export class AppComponent implements OnInit{
       this.currentCheckInVal = x.checkin;
       this.currentCheckOutVal = x.checkout;
     });
+
+      this.getWelcomeMessages().subscribe(messages => {
+        this.englishWelcomeMessage = messages.english;
+        this.frenchWelcomeMessage = messages.french;
+        this.welcomeMessages = [messages.english, messages.french];
+      });
   }
 
     onSubmit({value,valid}:{value:Roomsearch,valid:boolean}){
@@ -79,9 +89,13 @@ export class AppComponent implements OnInit{
 
     getAll(): Observable<any> {
 
-
        return this.httpClient.get(this.baseURL + '/room/reservation/v1?checkin='+ this.currentCheckInVal + '&checkout='+this.currentCheckOutVal, {responseType: 'json'});
     }
+
+  getWelcomeMessages(): Observable<any>{
+    return this.httpClient.get<{ english: string, french: string }>
+    (`${this.baseURL}/welcome`,{ responseType: 'json' });
+  }
 
   }
 

@@ -23,7 +23,10 @@
   <div class="scene" id="welcome">
     <article class="content">
 
- 
+      <p *ngFor="let msg of welcomeMessages">
+        {{ msg }}
+      </p>
+
 
       <div class="row">
         <div class=""col-12>
@@ -58,7 +61,7 @@
               </div>
               </form>
 
-        
+
         </div>
       </div>
 
