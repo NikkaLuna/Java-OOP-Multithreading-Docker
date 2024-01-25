@@ -19,6 +19,8 @@ export class AppComponent implements OnInit{
   frenchWelcomeMessage: string = '';
   welcomeMessages!: string[];
 
+  convertedTimes: { [key: string]: string } = {};
+
   constructor(private httpClient:HttpClient){}
 
   private baseURL:string='http://localhost:8080';
@@ -53,6 +55,19 @@ export class AppComponent implements OnInit{
         this.englishWelcomeMessage = messages.english;
         this.frenchWelcomeMessage = messages.french;
         this.welcomeMessages = [messages.english, messages.french];
+      });
+
+
+      this.getConvertedTimes('America/New_York').subscribe(convertedTimeNY => {
+        this.convertedTimes['America/New_York'] = convertedTimeNY.convertedTime;
+      });
+
+      this.getConvertedTimes('America/Denver').subscribe(convertedTimeDenver => {
+        this.convertedTimes['America/Denver'] = convertedTimeDenver.convertedTime;
+      });
+
+      this.getConvertedTimes('UTC').subscribe(convertedTimeUTC => {
+        this.convertedTimes['UTC'] = convertedTimeUTC.convertedTime;
       });
   }
 
@@ -97,6 +112,10 @@ export class AppComponent implements OnInit{
     (`${this.baseURL}/welcome`,{ responseType: 'json' });
   }
 
+
+  getConvertedTimes(timeZone: string): Observable<any> {
+    return this.httpClient.get<any>(`${this.baseURL}/time?timeZone=${timeZone}`);
+  }
   protected readonly Math = Math;
 }
 
