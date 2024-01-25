@@ -76,10 +76,19 @@
                 <td>
                   <img src="assets/images/intro_room.jpg" alt="Intro Gallery Room Sample Pictures">
                 </td>
+
+
+
                 <td>
-                  <strong>Room #: {{room.roomNumber}}</strong><br/>
-                  <strong>Price: ${{room.price}}</strong>
+                  <strong>Room #: {{ room.roomNumber }}</strong><br/>
+                  <strong>Price: ${{ room.price }}</strong><br/>
+                  <strong>Price: CA${{ Math.round(+room.price * 1.35) }}</strong><br/>
+                  <strong>Price: €{{ Math.round(+room.price * 0.92) }}</strong>
                 </td>
+
+
+
+
                 <td>
                   <button type="submit" class="btn btn-primary" (click)="reserveRoom(room.id)">Reserve</button>
                 </td>

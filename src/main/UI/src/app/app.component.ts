@@ -97,7 +97,8 @@ export class AppComponent implements OnInit{
     (`${this.baseURL}/welcome`,{ responseType: 'json' });
   }
 
-  }
+  protected readonly Math = Math;
+}
 
 
 
@@ -113,6 +114,8 @@ export interface Room{
   id:string;
   roomNumber:string;
   price:string;
+  priceCAD?: string;
+  priceEUR?: string;
   links:string;
 
 }
