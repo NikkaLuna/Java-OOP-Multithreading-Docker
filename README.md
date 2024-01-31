@@ -23,7 +23,7 @@ The application you're working on is a robust Spring application with a Java bac
 
 ## USAGE
 
-- **Clone and Setup**: Clone the project from GitLab and set it up in your preferred IDE.
+- **Clone and Setup**: Clone the project from GitHub and set it up in your preferred IDE.
 - **Development and Testing**: Follow the development guidelines and perform necessary testing.
 - **Deployment**: Use the provided instructions to deploy the application using Docker and cloud services.
 
