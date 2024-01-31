@@ -1,29 +1,38 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
+## SCENARIO
 
-# WESTERN GOVERNOR UNIVERSITY 
-## D387 – ADVANCED JAVA
-Welcome to Advanced Java! This is an opportunity for students to write multithreaded object-oriented code using Java frameworks and determine how to deploy software applications using cloud services.
+As a software developer at a company in Toronto, Canada, specializing in hotel reservations, you are tasked with modifying a Hotel scheduling application. This project involves adapting the application to new management requirements, focusing on a user-centric approach.
 
-FOR SPECIFIC TASK INSTRUCTIONS AND REQUIREMENTS FOR THIS ASSESSMENT, PLEASE REFER TO THE COURSE PAGE.
-## BASIC INSTRUCTIONS
-For this assessment, you will modify a Spring application with a Java back end and an Angular front end to include multithreaded language translation, a message at different time zones, and currency exchange. Then, build a Docker image of the current multithreaded Spring application and containerize it using the supporting documents provided in this task.
+The application you're working on is a robust Spring application with a Java backend and an Angular front end. You have access to essential web links and supporting documents to assist in your development process.
+
+## REQUIREMENTS & DEVELOPMENT PROCESS
+
+- **Localization & Internationalization**: Modify the Java backend to support both English and French, complying with Canadian language laws.
+- **Currency Display**: Update the front end to show reservation prices in USD, CAD, and EUR.
+- **Time Zone Conversion**: Implement a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
+- **Docker & Cloud Deployment**: Build a Dockerfile for the entire application, including all modifications, and detail the process for deploying the application to cloud services.
+
+## TASKS
+
+1. **Application Installation**: Set up the Hotel scheduling application in your IDE.
+2. **Resource Bundles**: Create and apply resource bundles in both English and French for welcome messages.
+3. **Front End Modification**: Adjust the display of currency rates on the front end.
+4. **Time Conversion Method**: Develop and integrate a method to handle time zone differences.
+5. **Docker Integration**: Construct and test a Dockerfile for the application.
+6. **Cloud Deployment Strategy**: Outline the approach for deploying the application to a cloud service, specifying the chosen provider.
 
 
-## SUPPLEMENTAL RESOURCES 
-1.	How to clone a project to IntelliJ using Git?
+## USAGE
 
-> Ensure that you have Git installed on your system and that IntelliJ is installed using [Toolbox](https://www.jetbrains.com/toolbox-app/). Make sure that you are using version 2022.3.2. Once this has been confirmed, click the clone button and use the 'IntelliJ IDEA (HTTPS)' button. This will open IntelliJ with a prompt to clone the proejct. Save it in a safe location for the directory and press clone. IntelliJ will prompt you for your credentials. Enter in your WGU Credentials and the project will be cloned onto your local machine.  
+- **Clone and Setup**: Clone the project from GitLab and set it up in your preferred IDE.
+- **Development and Testing**: Follow the development guidelines and perform necessary testing.
+- **Deployment**: Use the provided instructions to deploy the application using Docker and cloud services.
 
-2. How to create a branch and start Development?
+## CONTRIBUTION GUIDELINES
 
-- GitLab method
-> Press the '+' button located near your branch name. In the dropdown list, press the 'New branch' button. This will allow you to create a name for your branch. Once the branch has been named, you can select 'Create Branch' to push the branch to your repository.
+Contributions are encouraged under the following conditions:
+- Adherence to the project's core requirements and design.
+- Commitment to maintaining the integrity and authenticity of the work.
+- Alignment with the overall objectives of the Hotel scheduling application project.
 
-- IntelliJ method
-> In IntelliJ, Go to the 'Git' button on the top toolbar. Select the new branch option and create a name for the branch. Make sure checkout branch is selected and press create. You can now add a commit message and push the new branch to the local repo.
 
-## SUPPORT
-If you need additional support, please navigate to the course page and reach out to your course instructor.
-## FUTURE USE
-Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
 
