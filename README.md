@@ -4,6 +4,11 @@ As a software developer at a company in Toronto, Canada, specializing in hotel r
 
 The application you're working on is a robust Spring application with a Java backend and an Angular front end. You have access to essential web links and supporting documents to assist in your development process.
 
+<div style="text-align: center;">
+  <img src="https://github.com/NikkaLuna/Java-OOP-Multithreading-Docker/assets/94496219/832114b6-e6ad-4561-9e2b-412dbf578fb4">
+</div>
+
+
 ## REQUIREMENTS & DEVELOPMENT PROCESS
 
 - **Localization & Internationalization**: Modify the Java backend to support both English and French, complying with Canadian language laws.
