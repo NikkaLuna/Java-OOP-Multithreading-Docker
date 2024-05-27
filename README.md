@@ -1,8 +1,8 @@
 ## SCENARIO
 
-As a software developer at a company in Toronto, Canada, specializing in hotel reservations, you are tasked with modifying a Hotel scheduling application. This project involves adapting the application to new management requirements, focusing on a user-centric approach.
+As a software developer at a company in Toronto, Canada, specializing in hotel reservations, I was tasked with modifying a Hotel scheduling application. This project involved adapting the application to new management requirements, focusing on a user-centric approach.
 
-The application you're working on is a robust Spring application with a Java backend and an Angular front end. You have access to essential web links and supporting documents to assist in your development process.
+The application I worked on is a robust Spring application with a Java backend and an Angular front end. 
 
 <div style="text-align: center;">
   <img src="https://github.com/NikkaLuna/Java-OOP-Multithreading-Docker/assets/94496219/832114b6-e6ad-4561-9e2b-412dbf578fb4">
@@ -11,19 +11,19 @@ The application you're working on is a robust Spring application with a Java bac
 
 ## REQUIREMENTS & DEVELOPMENT PROCESS
 
-- **Localization & Internationalization**: Modify the Java backend to support both English and French, complying with Canadian language laws.
-- **Currency Display**: Update the front end to show reservation prices in USD, CAD, and EUR.
-- **Time Zone Conversion**: Implement a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
-- **Docker & Cloud Deployment**: Build a Dockerfile for the entire application, including all modifications, and detail the process for deploying the application to cloud services.
+- **Localization & Internationalization**: I modified the Java backend to support both English and French, complying with Canadian language laws.
+- **Currency Display**: I updated the front end to show reservation prices in USD, CAD, and EUR.
+- **Time Zone Conversion**: I implemented a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
+- **Docker & Cloud Deployment**: I built a Dockerfile for the entire application, including all modifications, and detailed the process for deploying the application to cloud services.
 
 ## TASKS
 
-1. **Application Installation**: Set up the Hotel scheduling application in your IDE.
-2. **Resource Bundles**: Create and apply resource bundles in both English and French for welcome messages.
-3. **Front End Modification**: Adjust the display of currency rates on the front end.
-4. **Time Conversion Method**: Develop and integrate a method to handle time zone differences.
-5. **Docker Integration**: Construct and test a Dockerfile for the application.
-6. **Cloud Deployment Strategy**: Outline the approach for deploying the application to a cloud service, specifying the chosen provider.
+1. **Application Installation**: I set up the Hotel scheduling application in my IDE, IntelliJ.
+2. **Resource Bundles**: I created and applied resource bundles in both English and French for welcome messages.
+3. **Front End Modification**: I adjusted the display of currency rates on the front end.
+4. **Time Conversion Method**: I developed and integrated a method to handle time zone differences.
+5. **Docker Integration**: I constructed and tested a Dockerfile for the application.
+6. **Cloud Deployment Strategy**: I outlined the approach for deploying the application to a cloud service, AWS.
 
 
 ## USAGE
