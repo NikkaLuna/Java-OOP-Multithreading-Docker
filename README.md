@@ -2,7 +2,7 @@
 
 As a software developer at a company in Toronto, Canada, specializing in hotel reservations, I was tasked with modifying a Hotel scheduling application. This project involved adapting the application to new management requirements, focusing on a user-centric approach.
 
-The application I worked on is a robust Spring application with a Java backend and an Angular front end. 
+The application I worked on is a robust Spring application with a Java backend and an Angular front end. To ensure consistent deployment and simplify the development process, I utilized Docker for containerization. I created a Dockerfile to package the application, including all necessary modifications, enabling easy deployment to cloud services.
 
 <div style="text-align: center;">
   <img src="https://github.com/NikkaLuna/Java-OOP-Multithreading-Docker/assets/94496219/832114b6-e6ad-4561-9e2b-412dbf578fb4">
