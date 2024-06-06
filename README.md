@@ -23,8 +23,6 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 
 ![Hotel Scheduling Application](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Docker%20Deployment.png)
 *This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the successful containerization and deployment of the application using Docker.*
-
-
 <br><br><br>
 ## REQUIREMENTS & DEVELOPMENT PROCESS
 
@@ -32,6 +30,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 - **Currency Display**: I updated the front end to show reservation prices in USD, CAD, and EUR.
 - **Time Zone Conversion**: I implemented a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
 - **Docker & Cloud Deployment**: I built a Dockerfile for the entire application, including all modifications, and detailed the process for deploying the application to cloud services.
+
 
 
 ## TASKS
@@ -42,6 +41,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 4. **Time Conversion Method**: I developed and integrated a method to handle time zone differences.
 5. **Docker Integration**: I constructed and tested a Dockerfile for the application.
 6. **Cloud Deployment Strategy**: I outlined the approach for deploying the application to a cloud service, AWS.
+
 
 
 ## USAGE
