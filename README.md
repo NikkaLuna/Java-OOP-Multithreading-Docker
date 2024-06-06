@@ -2,7 +2,7 @@
 ## Description
 
 This project involves modernizing a Hotel scheduling application, integrating both Java Spring backend and Angular frontend to support multilingual interfaces (English and French), diverse currency displays, and time zone conversions, with a focus on containerization using Docker for efficient deployment to cloud services.
-<br><br><br>
+
 
 ## Features
 
@@ -32,7 +32,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 - **Currency Display**: I updated the front end to show reservation prices in USD, CAD, and EUR.
 - **Time Zone Conversion**: I implemented a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
 - **Docker & Cloud Deployment**: I built a Dockerfile for the entire application, including all modifications, and detailed the process for deploying the application to cloud services.
-<br><br><br>
+
 
 ## TASKS
 
@@ -49,7 +49,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 - **Clone and Setup**: Clone the project from GitHub and set it up in your preferred IDE.
 - **Development and Testing**: Follow the development guidelines and perform necessary testing.
 - **Deployment**: Use the provided instructions to deploy the application using Docker and cloud services.
-<br><br><br>
+
 ## CONTRIBUTION GUIDELINES
 
 Contributions are encouraged under the following conditions:
