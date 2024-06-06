@@ -1,8 +1,4 @@
 
-<div style="text-align: center;">
-  <img src="https://github.com/NikkaLuna/Java-OOP-Multithreading-Docker/assets/94496219/832114b6-e6ad-4561-9e2b-412dbf578fb4">
-</div>
-
 ## Description
 
 This project involves modernizing a Hotel scheduling application, integrating both Java Spring backend and Angular frontend to support multilingual interfaces (English and French), diverse currency displays, and time zone conversions, with a focus on containerization using Docker for efficient deployment to cloud services.
@@ -16,12 +12,9 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 
 ## Screenshots
 
-![Hotel Scheduling Application](path/to/your/image.png)
-*This screenshot shows the main interface of the application where users can book rooms, view available rooms with prices in different currencies, and find information about live presentations.*
+![Hotel Scheduling Application](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Hotel%20Scheduling%20Application.png)
 
-<div style="text-align: center;">
-  <img src="https://github.com/NikkaLuna/Java-OOP-Multithreading-Docker/assets/94496219/832114b6-e6ad-4561-9e2b-412dbf578fb4">
-</div>
+*This screenshot shows the main interface of the application where users can book rooms, view available rooms with prices in different currencies, and find information about live presentations.*
 
 
 ## REQUIREMENTS & DEVELOPMENT PROCESS
