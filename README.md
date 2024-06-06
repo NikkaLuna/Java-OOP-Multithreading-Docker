@@ -57,7 +57,6 @@ Contributions are encouraged under the following conditions:
 - Commitment to maintaining the integrity and authenticity of the work.
 - Alignment with the overall objectives of the Hotel scheduling application project.
 
-- 
 
 
 ## Authors
