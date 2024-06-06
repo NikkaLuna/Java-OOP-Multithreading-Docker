@@ -24,7 +24,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 ![Hotel Scheduling Application](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Docker%20Deployment.png)
 *This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the successful containerization and deployment of the application using Docker.*
 
-<br><br><br>
+
 
 ## REQUIREMENTS & DEVELOPMENT PROCESS
 
