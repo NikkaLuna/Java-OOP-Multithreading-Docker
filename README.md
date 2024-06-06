@@ -2,6 +2,7 @@
 ## Description
 
 This project involves modernizing a Hotel scheduling application, integrating both Java Spring backend and Angular frontend to support multilingual interfaces (English and French), diverse currency displays, and time zone conversions, with a focus on containerization using Docker for efficient deployment to cloud services.
+<br><br><br>
 
 ## Features
 
@@ -10,12 +11,20 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 - **Time Zone Conversion**: Converts times between ET, MT, and UTC for live presentations.
 - **Docker & Cloud Deployment**: Utilizes Docker for containerization and deployment to cloud services.
 
+
+
 ## Screenshots
 
 ![Hotel Scheduling Application](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Hotel%20Scheduling%20Application.png)
 
 *This screenshot shows the main interface of the application where users can book rooms, view available rooms with prices in different currencies, and find information about live presentations.*
 
+<br><br><br>
+
+![Hotel Scheduling Application](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Docker%20Deployment.png)
+*This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the successful containerization and deployment of the application using Docker.*
+
+<br><br><br>
 
 ## REQUIREMENTS & DEVELOPMENT PROCESS
 
@@ -23,6 +32,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 - **Currency Display**: I updated the front end to show reservation prices in USD, CAD, and EUR.
 - **Time Zone Conversion**: I implemented a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
 - **Docker & Cloud Deployment**: I built a Dockerfile for the entire application, including all modifications, and detailed the process for deploying the application to cloud services.
+<br><br><br>
 
 ## TASKS
 
@@ -39,7 +49,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 - **Clone and Setup**: Clone the project from GitHub and set it up in your preferred IDE.
 - **Development and Testing**: Follow the development guidelines and perform necessary testing.
 - **Deployment**: Use the provided instructions to deploy the application using Docker and cloud services.
-
+<br><br><br>
 ## CONTRIBUTION GUIDELINES
 
 Contributions are encouraged under the following conditions:
