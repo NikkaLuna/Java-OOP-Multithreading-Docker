@@ -25,7 +25,7 @@ This project involves modernizing a Hotel scheduling application, integrating bo
 *This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the successful containerization and deployment of the application using Docker.*
 
 
-
+<br><br><br>
 ## REQUIREMENTS & DEVELOPMENT PROCESS
 
 - **Localization & Internationalization**: I modified the Java backend to support both English and French, complying with Canadian language laws.
