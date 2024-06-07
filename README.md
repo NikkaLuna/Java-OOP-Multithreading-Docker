@@ -28,13 +28,6 @@ The Java Spring Hotel Scheduling Application is a web-based solution that levera
 
 *This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the successful containerization and deployment of the application using Docker.*
 
-## Requirements & Development Process
-
-- **Localization & Internationalization**: I modified the Java backend to support both English and French, complying with Canadian language laws.
-- **Currency Display**: I updated the front end to show reservation prices in USD, CAD, and EUR.
-- **Time Zone Conversion**: I implemented a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
-- **Docker & Cloud Deployment**: I built a Dockerfile for the entire application, including all modifications, and detailed the process for deploying the application to cloud services.
-
 ## Usage
 
 1. **Clone and Setup**: Clone the project from GitHub and set it up in your preferred IDE.
