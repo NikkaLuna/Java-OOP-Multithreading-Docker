@@ -2,7 +2,7 @@
 
 ## Description
 
-This project involves modernizing a Hotel scheduling application, integrating both Java Spring backend and Angular frontend to support multilingual interfaces (English and French), diverse currency displays, and time zone conversions, with a focus on containerization using Docker for efficient deployment to cloud services.
+This project modernized a Hotel scheduling application by integrating a Java Spring backend with an Angular frontend. It enabled multilingual support (English and French), diverse currency displays, time zone conversions, and containerization using Docker for efficient cloud deployment.
 
 ## Features
 
