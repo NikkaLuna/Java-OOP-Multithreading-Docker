@@ -15,7 +15,7 @@ This project modernized a Hotel scheduling application by integrating a Java Spr
 
 ![Hotel Scheduling Application](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Hotel%20Scheduling%20Application.png)
 
-*This screenshot shows the main interface of the application where users can book rooms, view available rooms with prices in different currencies, and find information about live presentations.*
+*This screenshot shows the main interface of the application where users can book rooms, view available rooms with prices in different currencies, and find information about a live presentation being showcased at the hotel.*
 
 <br><br>
 
