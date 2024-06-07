@@ -1,4 +1,4 @@
-# Java Spring Hotel Scheduling Application
+# Hotel Reservation Application with Spring Framework
 
 ## Description
 
