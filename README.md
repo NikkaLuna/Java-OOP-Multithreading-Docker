@@ -2,7 +2,7 @@
 
 ## Description
 
-The Java Spring Hotel Scheduling Application is a web-based solution that leverages Java Spring Boot as the backend framework and Angular for the frontend development. It enables multilingual support (English and French), diverse currency displays, time zone conversions, and containerization using Docker for efficient cloud deployment.
+The Java Spring Hotel Scheduling Application is a web-based solution that leverages Java Spring Boot as the backend framework and Angular for the frontend. It enables multilingual support (English and French), diverse currency displays, time zone conversions, and containerization using Docker for efficient cloud deployment.
 
 
 ## Features
@@ -10,10 +10,10 @@ The Java Spring Hotel Scheduling Application is a web-based solution that levera
 - **Localization & Internationalization**: Supports both English and French.
 - **Currency Display**: Shows reservation prices in USD, CAD, and EUR.
 - **Time Zone Conversion**: Converts times between ET, MT, and UTC for live presentations.
-- **MultiThreading**: Implemented multithreaded programming in Java, adhering to industry best practices for thread safety, synchronization, and efficient resource management.
-- **JPA Integration**: Utilized JPA to define the data model and persistence logic for entities, ensuring efficient data management and storage.
-- **Spring MVC REST API**: Coupled JPA with Spring MVC annotations to expose REST API endpoints for effective management of hotel reservations, providing a robust and scalable backend architecture.
-- **Docker & Cloud Deployment**: Utilizes Docker for containerization and deployment to cloud services, ensuring easy scalability and efficient deployment workflow.
+- **MultiThreading**: Implements multithreaded programming in Java, adhering to industry best practices for thread safety, synchronization, and efficient resource management.
+- **JPA Integration**: Utilizes JPA to define the data model and persistence logic for entities, ensuring efficient data management and storage.
+- **Spring MVC REST API**: Couples JPA with Spring MVC annotations to expose REST API endpoints for effective management of hotel reservations, providing a robust and scalable backend architecture.
+- **Docker & Cloud Deployment**: Leverages Docker for containerized deployment to cloud services, enabling efficient scaling and streamlined workflows. 
 
 
 ## Screenshots
