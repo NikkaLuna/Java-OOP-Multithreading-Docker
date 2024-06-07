@@ -1,4 +1,4 @@
-# Hotel Reservation Application with Spring Framework
+# Hotel Reservation Application with Spring Boot
 
 ## Description
 
