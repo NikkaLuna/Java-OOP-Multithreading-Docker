@@ -1,8 +1,8 @@
-# Hotel Scheduling Application
+# Java Spring Hotel Scheduling Application
 
 ## Description
 
-This project modernized a Hotel scheduling application by integrating a Java Spring backend with an Angular frontend. It enabled multilingual support (English and French), diverse currency displays, time zone conversions, and containerization using Docker for efficient cloud deployment.
+The Java Spring Hotel Scheduling Application is a web-based solution that leverages Java Spring Boot as the backend framework and Angular for the frontend development. It enables multilingual support (English and French), diverse currency displays, time zone conversions, and containerization using Docker for efficient cloud deployment.
 
 ## Features
 
@@ -15,7 +15,7 @@ This project modernized a Hotel scheduling application by integrating a Java Spr
 
 ![Hotel Scheduling Application](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Hotel%20Scheduling%20Application.png)
 
-*This screenshot shows the main interface of the application where users can book rooms, view available rooms with prices in different currencies, and find information about a live presentation being showcased at the hotel.*
+*This screenshot shows the main interface of the application where users can book rooms, view available rooms with prices in different currencies, and find information about a live presentation being presented at the hotel.*
 
 <br><br>
 
@@ -29,15 +29,6 @@ This project modernized a Hotel scheduling application by integrating a Java Spr
 - **Currency Display**: I updated the front end to show reservation prices in USD, CAD, and EUR.
 - **Time Zone Conversion**: I implemented a Java method for converting times between ET, MT, and UTC, specifically for live presentations at the Landon Hotel.
 - **Docker & Cloud Deployment**: I built a Dockerfile for the entire application, including all modifications, and detailed the process for deploying the application to cloud services.
-
-## Tasks
-
-- **Application Installation**: I set up the Hotel scheduling application in my IDE, IntelliJ.
-- **Resource Bundles**: I created and applied resource bundles in both English and French for welcome messages.
-- **Front End Modification**: I adjusted the display of currency rates on the front end.
-- **Time Conversion Method**: I developed and integrated a method to handle time zone differences.
-- **Docker Integration**: I constructed and tested a Dockerfile for the application.
-- **Cloud Deployment Strategy**: I outlined the approach for deploying the application to a cloud service, AWS.
 
 ## Usage
 
