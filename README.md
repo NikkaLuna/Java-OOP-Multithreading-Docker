@@ -1,4 +1,4 @@
-# Hotel Reservation Application with Spring Boot
+# Hotel Reservation Management System
 
 ## Description
 
