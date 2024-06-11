@@ -28,6 +28,14 @@ The Java Spring Hotel Scheduling Application is a web-based solution that levera
 
 *This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the containerization and deployment of the application using Docker.*
 
+
+## Challenge
+**CORS Issues**: Encountered difficulties with Cross-Origin Resource Sharing (CORS) when setting up and integrating the Angular frontend with the backend REST API, which prevented the frontend from making requests to the backend due to security restrictions.
+
+### Solution:
+**CORS Configuration**: Resolved the issue by configuring CORS settings in the Spring Boot application, allowing the Angular frontend to communicate with the backend REST API.
+
+
 ## Usage
 
 1. **Clone and Setup**: Clone the project from GitHub and set it up in your preferred IDE.
