@@ -12,7 +12,7 @@ The Java Spring Hotel Scheduling Application is a web-based solution that levera
 - **Time Zone Conversion**: Converts times between ET, MT, and UTC for live presentations.
 - **MultiThreading**: Implements multithreaded programming in Java, adhering to industry best practices for thread safety, synchronization, and efficient resource management.
 - **JPA Integration**: Utilizes JPA to define the data model and persistence logic for entities.
-- **Spring MVC REST API**: Couples JPA with Spring MVC annotations to expose REST API endpoints for effective management of hotel reservations, providing a scalable backend architecture.
+- **Spring MVC REST API**: Couples JPA with Spring MVC annotations to expose REST API endpoints for effective management of hotel reservations.
 - **Docker & Cloud Deployment**: Leverages Docker for containerized deployment to cloud services, enabling streamlined workflows. 
 
 
