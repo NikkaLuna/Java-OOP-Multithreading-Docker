@@ -11,9 +11,9 @@ The Java Spring Hotel Scheduling Application is a web-based solution that levera
 - **Currency Display**: Shows reservation prices in USD, CAD, and EUR.
 - **Time Zone Conversion**: Converts times between ET, MT, and UTC for live presentations.
 - **MultiThreading**: Implements multithreaded programming in Java, adhering to industry best practices for thread safety, synchronization, and efficient resource management.
-- **JPA Integration**: Utilizes JPA to define the data model and persistence logic for entities, ensuring efficient data management and storage.
-- **Spring MVC REST API**: Couples JPA with Spring MVC annotations to expose REST API endpoints for effective management of hotel reservations, providing a robust and scalable backend architecture.
-- **Docker & Cloud Deployment**: Leverages Docker for containerized deployment to cloud services, enabling efficient scaling and streamlined workflows. 
+- **JPA Integration**: Utilizes JPA to define the data model and persistence logic for entities.
+- **Spring MVC REST API**: Couples JPA with Spring MVC annotations to expose REST API endpoints for effective management of hotel reservations, providing a scalable backend architecture.
+- **Docker & Cloud Deployment**: Leverages Docker for containerized deployment to cloud services, enabling streamlined workflows. 
 
 
 ## Screenshots
@@ -26,7 +26,7 @@ The Java Spring Hotel Scheduling Application is a web-based solution that levera
 
 ![Docker Deployment](https://github.com/NikkaLuna/HotelSchedulingApplication_Java_Spring_Multithreading_with_Docker/blob/D387/Docker%20Deployment.png)
 
-*This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the successful containerization and deployment of the application using Docker.*
+*This screenshot shows the Docker Desktop interface with the running container and the Landon Hotel application accessible via `localhost:8080`. It demonstrates the containerization and deployment of the application using Docker.*
 
 ## Usage
 
